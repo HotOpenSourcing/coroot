@@ -7,3 +7,5 @@
 /coroot
 /.claude/
 /build.sh
+config.bat
+node_modules

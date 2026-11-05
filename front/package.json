@@ -2,8 +2,8 @@
   "name": "@coroot/coroot",
   "version": "0.1.0",
   "scripts": {
-    "build-dev": "vue-cli-service build --dest=../static --watch",
-    "build-prod": "vue-cli-service build --dest=../static src/main.js",
+    "build-dev": "node init && vue-cli-service build --dest=../static --watch",
+    "build-prod": "node init && vue-cli-service build --dest=../static src/main.js",
     "lint": "vue-cli-service lint",
     "fmt": "prettier src --write",
     "fmt-check": "prettier src --check"
